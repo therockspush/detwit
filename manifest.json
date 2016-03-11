@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "detwit",
+    "version": "0.1",
+    "browser_action": {
+        "default_icon": "twitty.png"},
+
+    "content_scripts": [
+                    {
+                        
+                        "matches": ["https://twitter.com/lott_ff/following","https://twitter.com/following"],
+                    "js": ["biff.js"]
+                        
+                        
+                        
+                    }
+                    ]
+}
